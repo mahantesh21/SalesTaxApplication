@@ -70,12 +70,11 @@ Sales Taxes: 6.70 Total: 74.68
 cd /SalesTaxCalculator
 mvn clean package exec:java@salestaxapp
 
-============
+
 Hello, This is the application to calculate Sales Tax
 
- ============
- Summary for Order SA01
- ============
+Summary for Order SA01
+ 
  1 book : 12.49
  1 music CD : 16.49
  1 chocolate bar : 0.85
@@ -84,9 +83,9 @@ Hello, This is the application to calculate Sales Tax
  Total: 29.83
  
 
- ============
- Summary for Order SA02
- ============
+ 
+Summary for Order SA02
+ 
  1 imported box of chocolate : 10.5
  1 imported bottle of perfume : 54.65
  
@@ -94,9 +93,9 @@ Hello, This is the application to calculate Sales Tax
  Total: 65.15
  
 
- =================================================
- Summary for Order SA03
- =================================================
+ 
+Summary for Order SA03
+ 
  1 imported bottle of perfume : 32.19
  1 bottle of perfume : 20.89
  1 packet of headache pills : 9.75
