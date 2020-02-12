@@ -1,19 +1,16 @@
-##############################################################
+
 # SalesTaxApplication
-##############################################################
 Application to calculate Sales Tax
 
 This is the application to calculate Sales Tax
 
-##############################################################
-Pre - requisites
-##############################################################
+# Pre - requisites
 Maven Latest version
 Java Runtime Environment (JRE) v1.8.0+ - Java SE Development Kit (JDK) v1.8.0+
 
-##############################################################
-Steps to run the application
-##############################################################
+
+# Steps to run the application
+
 Using Main method
 1. Checkout application from repository https://github.com/mahantesh21/SalesTaxApplication
 2. Run as Java application using Main method in SalesTaxCalculator/src/main/java/uk/co/salestax/application/main/SalesApp.java
@@ -23,9 +20,9 @@ Using Command prompt and mvn
 2. Open command prompt; cd to ../SalesTaxCalculator 
 3. mvn clean package exec:java@salestaxapp
 
-##############################################################
-Problem description
-##############################################################
+
+# Problem description
+
 Sales Taxes 
 Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt. Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions. 
 When I purchase items, I receive a receipt which lists the name of all the items and their price (including tax), finishing with the total cost of the items, and the total amounts of sales taxes paid. The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax. 
@@ -67,9 +64,8 @@ Output 3:
 Sales Taxes: 6.70 Total: 74.68
 
 
-##############################################################
-Sample Output
-##############################################################
+
+# Sample Output
 
 cd /SalesTaxCalculator
 mvn clean package exec:java@salestaxapp
@@ -109,18 +105,16 @@ Hello, This is the application to calculate Sales Tax
  Sales Taxes: 6.7 
  Total: 74.68
 
-##############################################################
-Please note
-##############################################################
+
+# Please note
+
 1.SalesApptest.java - Written Basic Junit tests due to lack of time, we can expand this to have more cases similarly
 2. Purposefully did not complicate the Item object to keep design simple, we can have Basic Parent Item class and then expand to child class variants as Local or Imported Item, but this is overkill in given case
 3. Purchase order class is just a placeholder to print output, Ideally One shopping Cart should have reciept associated, added PurchaseOrder.java class to hold all scenario in one go and print desired output
 4. Custom Exception created, this can be expanded for any custom behaviour for application, this can be useful in webapps
 
 
-##############################################################
-Thanks for the exercise, it was interesting !!
-
-Yours
-Mahantayya Hiremath
-##############################################################
+# Thanks for the exercise, it was interesting !!
+# Yours
+# Mahantayya Hiremath
+#
