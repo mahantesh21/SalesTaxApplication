@@ -14,7 +14,7 @@
 	<url>https://github.com/</url>
 
 	<properties>
-		<junitVersion>4.11</junitVersion>
+		<junitVersion>4.13.1</junitVersion>
 		<maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
